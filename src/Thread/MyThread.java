@@ -1,5 +1,8 @@
 package Thread;
 
+/**
+ * The type My thread.
+ */
 public class MyThread extends Thread {
     @Override
     public void run() {

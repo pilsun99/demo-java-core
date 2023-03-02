@@ -1,18 +1,29 @@
 import java.io.*;
 import java.util.ArrayList;
 
+/**
+ * The type Product manager.
+ */
 public class ProductManager {
     private ArrayList<Product> list;
     public static final String DB_PATH = "C:\\Users\\ASUS\\Desktop\\product.txt";
 
 
+    /**
+     * Instantiates a new Product manager.
+     */
     public ProductManager() {
 
         list = new ArrayList<>();
     }
 
 
-        public void readFromFile(String DB_PATH){
+    /**
+     * Read from file.
+     *
+     * @param DB_PATH the db path
+     */
+    public void readFromFile(String DB_PATH){
         try {
 
             FileReader fileReader = new FileReader(DB_PATH);
@@ -33,10 +44,22 @@ public class ProductManager {
         }
     }
 
+    /**
+     * Get list array list.
+     *
+     * @return the array list
+     */
     public ArrayList<Product> getList(){
 
         return  list;
     }
+
+    /**
+     * Oder by name product.
+     *
+     * @param name the name
+     * @return the product
+     */
     public Product oderByName(String name){
         for (Product product : list
              ) {if (product.getName() == name){
