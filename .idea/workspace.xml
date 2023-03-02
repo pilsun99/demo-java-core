@@ -4,22 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28b80ac4-1328-4b86-9e20-5a86f75954a8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ProductManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codestream.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codestream.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StreamIO/FileDownload.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StreamIO/FileOutputStreamCopyFile.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StreamIO/FileOutputStreamDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Thread/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Thread/MyThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/MyThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/Employee.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/EmployeeManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/Main.java" beforeDir="false" />
-    </list>
+    <list default="true" id="28b80ac4-1328-4b86-9e20-5a86f75954a8" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -193,6 +178,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
