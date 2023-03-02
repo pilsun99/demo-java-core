@@ -6,15 +6,15 @@ import java.util.ArrayList;
  */
 public class ProductManager {
     private ArrayList<Product> list;
-    public static final String DB_PATH = "C:\\Users\\ASUS\\Desktop\\product.txt";
+    public static final String DB_PATH = "/Users/lrandom/Desktop/java/demo-java-core/products.txt";
 
 
     /**
      * Instantiates a new Product manager.
      */
     public ProductManager() {
-
         list = new ArrayList<>();
+        readFromFile();
     }
 
 
@@ -23,7 +23,7 @@ public class ProductManager {
      *
      * @param DB_PATH the db path
      */
-    public void readFromFile(String DB_PATH){
+    public void readFromFile() {
         try {
 
             FileReader fileReader = new FileReader(DB_PATH);
@@ -40,7 +40,8 @@ public class ProductManager {
             }
             reader.close();
         } catch (Exception e) {
-            e.getMessage();
+            System.out.println( e.getMessage());
+
         }
     }
 
@@ -49,9 +50,9 @@ public class ProductManager {
      *
      * @return the array list
      */
-    public ArrayList<Product> getList(){
+    public ArrayList<Product> getList() {
 
-        return  list;
+        return list;
     }
 
     /**
@@ -60,25 +61,34 @@ public class ProductManager {
      * @param name the name
      * @return the product
      */
-    public Product oderByName(String name){
+    public Product findByName(String name) {
         for (Product product : list
-             ) {if (product.getName() == name){
-             return product;
-             }
+        ) {
+            if (product.getName().equalsIgnoreCase(name)) {
+                return product;
+            }
         }
         return null;
-        }
     }
-    /*public Product calculaterSum(){
-        ArrayList<Product> sum = new ArrayList<Product>();
+
+    public Product findById(int id) {
         for (Product product : list
-             ) {if(product.getId() == id){
-                 product.sumPrice();
-                 return product;
-        }
+        ) {
+            if (product.getId()==id) {
+                return product;
+            }
         }
         return null;
-    }*/
+    }
+    public float calculateSum(int id){
+        Product product =  findById(id);
+        if (product!=null) {
+            return product.getTotalPrice();
+        }
+        return 0;
+    }
+}
+
 
 
 

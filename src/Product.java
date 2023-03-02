@@ -108,8 +108,7 @@ public class Product implements Serializable {
      *
      * @return the boolean
      */
-    public boolean sumPrice(){
-        float sumPrice = this.price * this.quantity;
-        return false;
+    public float getTotalPrice(){
+        return this.price * this.quantity;
     }
 }
