@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="28b80ac4-1328-4b86-9e20-5a86f75954a8" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProductManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProductManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/products.txt" beforeDir="false" afterPath="$PROJECT_DIR$/products.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,24 +40,8 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
-                    <option name="branchName" value="session-7" />
-                    <option name="lastUsedInstant" value="1677584193" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="session-5" />
-                    <option name="lastUsedInstant" value="1676288999" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="bt-Cho" />
-                    <option name="lastUsedInstant" value="1673799447" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="bt2-session-4" />
-                    <option name="lastUsedInstant" value="1673445365" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="bt-session-4" />
-                    <option name="lastUsedInstant" value="1673435839" />
+                    <option name="branchName" value="session-11" />
+                    <option name="lastUsedInstant" value="1678189445" />
                   </RecentBranch>
                 </list>
               </option>
@@ -179,7 +159,8 @@
       <option name="presentableId" value="Default" />
       <updated>1672315018662</updated>
       <workItem from="1677764160089" duration="191000" />
-      <workItem from="1677764360596" duration="784000" />
+      <workItem from="1677764360596" duration="1040000" />
+      <workItem from="1678189416498" duration="1467000" />
     </task>
     <servers />
   </component>
